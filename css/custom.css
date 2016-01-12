@@ -61,6 +61,7 @@ header .navbar-default .navbar-nav > li > .active {
   border-bottom: none;
 }
 
+
 /* ---- MY STORY ---- */
 #my-story {
   background-color: gray;
@@ -68,58 +69,64 @@ header .navbar-default .navbar-nav > li > .active {
   padding-top: 0;
   z-index: 9;
 }
-#my-story .about {
-  background-color: gray;
-}
-#my-story .info {
-  margin-top: 50px;
-}
-#my-story .avatar {
-  width: 440px;
-  float: left;
-}
-#my-story .avatar img {
-  border: 6px solid #4a4a4a;
-  border-radius: 50%;
-  overflow: hidden;
-}
-#my-story .per-info {
-  text-align: left;
-  width: 675px;
-  float: right;
-}
-#my-story .per-info p {
-  color: #fff;
-}
-#my-story h6 {
-  font-size: 1em;
-}
 
-#likes .icon {
-  color: white;
-  border-color: white;
-}
-#likes h3 {
-  color: white;
-}
-.likes {
-  margin-top: 80px;
-}
-.likes li {
-  position: relative;
-  width: 20%;
-  float: left;
-  padding: 30px 0;
-  display: inline-block;
-  text-align: center;
-}
-.likes li i {
-  font-size: 80px;
-  color: white;
-}
-.likes h3 {
-  font-weight: 100;
-}
+    /* ABOUT */
+    #my-story .about {
+      background-color: gray;
+    }
+    #my-story .info {
+      margin-top: 50px;
+    }
+    #my-story .avatar {
+      width: 440px;
+      float: left;
+    }
+    #my-story .avatar img {
+      border: 6px solid #4a4a4a;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    #my-story .per-info {
+      text-align: left;
+      width: 675px;
+      float: right;
+    }
+    #my-story .per-info p {
+      color: #fff;
+    }
+    #my-story h6 {
+      font-size: 1em;
+    }
+
+    /* LIKES */
+    #likes {
+      margin-top: 50px;
+    }
+    #likes .icon {
+      color: white;
+      border-color: white;
+    }
+    #likes h3 {
+      color: white;
+      font-weight: 900;
+    }
+    #likes li {
+      position: relative;
+      width: 20%;
+      float: left;
+      padding: 30px 0;
+      display: inline-block;
+      text-align: center;
+      margin-top: 20px;
+    }
+    #likes li i {
+      font-size: 80px;
+      color: white;
+    }
+    #likes h3 {
+      font-weight: 100;
+    }
+
 
 /* ---- SKILLS ---- */
 #skills {
