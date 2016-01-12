@@ -3,3 +3,7 @@
 #home {
   background-color: gray;
 }
+
+#div.biglogo {
+  display: block;
+}
