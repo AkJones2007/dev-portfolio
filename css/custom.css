@@ -1,9 +1,45 @@
 /* This file contains all customizations to the original template */
 
-#home {
-  background-color: gray;
+
+/* ---- GENERAL ---- */
+body {
+  background-color: black;
 }
 
-#div.biglogo {
-  display: block;
+
+/* ---- TYPOGRAPHY ---- */
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
+}
+
+.script {
+  font-family: 'Playball', cursive;
+}
+
+.monospace {
+  font-family: 'Inconsolata';
+}
+
+
+/* ---- HOME ---- */
+#home {
+  background-color: black;
+}
+
+#home .big-logo {
+  margin-top: 15%;
+}
+
+#home .headlines h1 {
+  font-weight: 300;
+  font-size: 2.4em;
+  color: white;
+}
+
+#home .headlines h2 {
+  font-size: 1.4em;
+  font-weight: 300;
 }
