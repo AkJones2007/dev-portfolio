@@ -168,3 +168,6 @@ header .navbar-default .navbar-nav > li > .active {
 #skills .title {
   margin-right: 80px;
 }
+#skills p {
+  font-size: 24px;
+}
