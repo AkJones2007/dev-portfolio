@@ -5,7 +5,7 @@ Version:	    1.0
 Create Date:	08/23/2014
 Last change:	08/23/2014
 Primary use:	Personal Portfolio
-Color:			10 Option 
+Color:			10 Option
 Website: 		http://ideathemes.com/themes/html/Defrag/
 -------------------------------------------------------------------*/
 /*
@@ -19,7 +19,7 @@ Website: 		http://ideathemes.com/themes/html/Defrag/
 /*----- Main Layout ---------*/
 @import "bootstrap.css";
 /*----- ionicons Fonts Icons ---------*/
-@import "fonts/ionicons.min.css";
+@import "fonts/ionicons.css";
 /*----- animate.css ---------*/
 @import "animate.css";
 * {
@@ -135,7 +135,7 @@ hr {
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
-	
+
 }
 #home .text {
 	text-align: center;
@@ -168,7 +168,7 @@ hr {
 	font-weight: bolder;
 	color: #fff;
 	letter-spacing:0px;
-	
+
 }
 #home  .owl-number .owl-controls .owl-page, .owl-controls .owl-buttons div{
 	border-radius:50%;
@@ -176,7 +176,7 @@ hr {
 #home  .owl-page.active{
 	background:#212121 !important;
 }
-#home  .owl-controls .owl-page, .owl-controls .owl-buttons div{ 
+#home  .owl-controls .owl-page, .owl-controls .owl-buttons div{
 	border-radius:50%;
 }
 #home .social_icons ul {
@@ -187,7 +187,7 @@ hr {
 	margin-top:-115px;
 	position:relative;
 	z-index:99;
-	margin-bottom: 170px;	
+	margin-bottom: 170px;
 }
 #home  .owl-page{
 	margin-top:120px;
@@ -1637,7 +1637,7 @@ section::before, section::after {
 	left: 20px;
 	position: fixed;
 	top: 20px;
-	width: 32px; 
+	width: 32px;
 	z-index: 0;
 }
 
