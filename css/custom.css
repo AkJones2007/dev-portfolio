@@ -34,12 +34,12 @@ body {
 }
 
 #home .headlines h1 {
-  font-weight: 300;
+  font-weight: 100;
   font-size: 2.4em;
   color: white;
 }
 
 #home .headlines h2 {
   font-size: 1.4em;
-  font-weight: 300;
+  font-weight: 100;
 }
