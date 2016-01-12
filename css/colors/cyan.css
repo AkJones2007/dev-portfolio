@@ -1,0 +1,78 @@
+/*------------------------------------------------------------------
+
+COLOR:	CYAN
+color: #1ABC9C;
+-------------------------------------------------------------------*/
+#services, .overlay .icon a, .filter li a.active, .owl-number .active, #static, #referance, .filter li a:hover{
+	background: #1ABC9C !important;
+}
+.main_icon .icon {
+	border-color: #212121 !important;
+	color: #212121 !important;
+	background:#fff !important;
+}
+#services .main_icon .icon{
+	color: #1ABC9C !important;
+	border-color: #1ABC9C !important;
+}
+#portfolio .icon{
+	color: #1ABC9C !important;
+	border-color: #fff !important;
+}
+#static .icon{
+	color: #1ABC9C !important;
+	border-color: #1ABC9C !important;
+}
+#referance .icon{
+	color: #1ABC9C !important;
+	border-color: #1ABC9C !important;
+}
+#services .services i, #portfolio h3, #blog h3, .portfolio, .description p i{
+	color: #1ABC9C !important;
+}
+.static li i, #static h3{
+	color:#fff;
+}
+.static li:hover{
+	background:#fff;
+}
+.static li:hover i, .static li:hover h3, .static li:hover p{
+	color: #1ABC9C !important;
+}
+#testimonials, #team, .team .overlay{
+	background:#212121 !important;
+}
+#contact input[type="submit"]{
+	background: #1ABC9C;
+}
+#contact input[type="submit"]:hover, button:hover{
+	background: #ffac28;
+}
+#contact textarea, #contact input{
+	border-color:#1ABC9C !important;
+}
+#social .social_icons a{
+	color: #1ABC9C !important
+}
+#contact .social_icons a:hover{
+	border-color:#1ABC9C !important;
+}
+#contact .social_icons a:hover i{
+	color: #1ABC9C !important;
+	border-color:#1ABC9C !important;
+}
+.mfp-close-btn-in .mfp-close, .popup button{
+	background:#1ABC9C;
+}
+#contact input[type="submit"]:hover, button:hover{
+	background:#1ABC9C;
+}
+#services .services .ser-sec:hover i{
+	color:#fff !important;
+}
+#home .owl-page.active{
+	background:#1ABC9C !important;
+}
+#home .text h1 span{
+	color:#1ABC9C !important;
+}

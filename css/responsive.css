@@ -1,34 +1,487 @@
-@media (max-width: 768px){
-  .content {
-	padding: 40% 0 0;
-	}
+/*======================================
+			RESPONSIVE CSS
+=======================================*/
+/* Large */
+@media(max-width:1024px) {
+}
+/* Extra Small */
+@media(max-width:980px) {
+}
+@media(max-width:767px) {
+.main_icon .icon{
+	margin-top:0px;
+}
+#hello .skill li p {
+	margin-top: 0px;
+}
+.portfolio .over.hover .overlay {
+	height: 100%;
+}
+.portfolio .description {
+	width: 100%;
+}
+.portfolio .icon {
+	margin-top: 20px;
+}
+#testimonials .avatar {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+#testimonials .review {
+	text-align: center;
+	width: 100%;
+}
+.static li{
+	width:50%;
+}
+.static li:nth-child(5){
+	width:100%;
+}
+#home{
+	height:640px;
+	min-height: 640px;
+	padding-top: 55px;
+}
+.navbar-toggle{
+}
+header .menu{
+	margin-top:0px;
+}
+.navbar-header{
+	float:none;
+	margin-top:5px;
+}
+header{
+	position:absolute;
+	top:0px;
+}
+header{
+	background: #212121;
+}
+.nav > li{
+	width:100%;
+}
+header .navbar {
+	margin: 0px;
+	display: inline-block;
+	float: left;
+	margin-left: 75px;
+	position: relative;
+	left: 0px;
+	margin-left: 0px;
+	width: 100%;
+}
+.navbar-nav{
+	margin:0px;
+}
+.navbar{
+	min-height:0px;
+}
+#hello .avatar{
+	width:100%;
+	text-align:center;
 }
 
-@media (max-width: 603px){
-#tf-menu.navbar-default {
-	background-color: rgba(0, 0, 0, 0.79);
-	}
-#tf-works li.pull-right, #tf-works li.pull-left {
-    margin-top: 10px;
-    float: none !important;
-    text-align: center;
-    display: block;
+#hello .per-info{
+	width:100%;
+	text-align:center;
 }
-label{
-    float: none !important
+#hello .skill li{
+	width:30%;
 }
-.pull-left.fnav,
-.pull-right.fnav {
-    float: none !important;
-    text-align: center;
+.is-sticky header{
+	position:relative !important;
+}
+#hello .skill li:nth-child(1), #hello .skill li:nth-child(2), #hello .skill li:nth-child(3), #hello .skill li:nth-child(4), #hello .skill li:nth-child(4), #hello .skill li:nth-child(5) {
+	margin-top: 30px;
+}
+#hello .skill li p {
+	margin-top: 30px;
+}
+.portfolio .item{
+	width:49.5%;
+}
+.portfolio .item li{
+	margin:0px !important;
+}
+#social.page-panel.diagonal-top-up:before{
+	display:none;
+}
+#social .social_icons li:nth-child(1),  #social .social_icons li:nth-child(2), #social .social_icons li:nth-child(3),  #social .social_icons li:nth-child(4), #social .social_icons  li:nth-child(4), #social .social_icons li:nth-child(5){
+	margin:30px 0 !important;
+}
+#social{
+	height:auto;
+	padding:0px;
+	margin-top:50px;
+}
+#social .social_icons{
+	margin-top:0px;
+}
+#contact .form-group{
+	width:96.5%;
+}
+#contact .links{
+	margin-top:50px;
+}
+header .social_icons {
+	position: absolute;
+}
+}
+@media (max-width: 600px) {
+}
+@media(max-width:540px) {
+#home .text span {
+	letter-spacing: 8px;
+	line-height: 38px;
+	font-size: 19px;
+}
+#home .text h1 {
+	font-size: 50px;
+}
+#home {
+	height: 530px;
+	min-height: initial;
+}
+#home .text {
+	margin-top: 6%;
+}
+header {
+	position: absolute;
+	top: 0px;
+}
+header .menu {
+	margin-top: 0px;
+}
+.main_icon .icon {
+}
+#hello .avatar {
+	width: 100%;
+}
+#hello .avatar img {
+	width: 100%;
+}
+#hello .per-info {
+	width: 100%;
+}
+#hello .skill li {
+	width: 100%;
+}
+.navbar-toggle {
+	width: 50px;
+}
+#hello .skill li:nth-child(1), #hello .skill li:nth-child(2), #hello .skill li:nth-child(3), #hello .skill li:nth-child(4), #hello .skill li:nth-child(4), #hello .skill li:nth-child(5) {
+	margin-top: 0px;
+}
+.portfolio .item {
+	width: 100%;
+}
+#hello .skill li {
+	margin-bottom: 50px;
+}
+.portfolio .item {
+	width: 100%;
+}
+.static li {
+	width: 100%;
+}
+#testimonials .testi span {
+	font-size: 20px;
+}
+#testimonials .review {
+	width: 100%;
+}
+.chart {
+	float: none;
+	display: inline-block;
+}
+.portfolio .over.hover .overlay {
+	height: 70%;
+}
+.portfolio .description {
+	width: 100%;
+	text-align: center;
+}
+.portfolio .description p i{
+	float:none;
+}
+.portfolio .icon{
+	width:100%;
+}
+.static li {
+	width: 100%;
+}
+#contact .form-group {
+	width: 91%;
+}
+#contact textarea {
+	height: 10em;
+	width: 90%;
+}
+}
+@media(max-width:400px) {
+#home .text span {
+	letter-spacing: 8px;
+	line-height: 38px;
+	font-size: 19px;
+}
+#home .text h1 {
+	font-size: 50px;
+}
+#home {
+	height: 530px;
+	min-height: initial;
+}
+#home .text {
+	margin-top: 25%;
+}
+.big-logo{
+	display:none;
 }
 
-.hover-bg .hover-text {
-    padding: 12% 10%;
+header {
+	position: absolute;
+	top: 0px;
+}
+header .menu {
+	margin-top: 0px;
+}
+.main_icon .icon {
+	margin-top: 30px;
+}
+#hello .avatar {
+	width: 100%;
+}
+#hello .avatar img {
+	width: 100%;
+}
+#hello .per-info {
+	width: 100%;
+}
+#hello .skill li {
+	width: 100%;
+}
+.navbar-toggle {
+	width: 50px;
+}
+#hello .skill li:nth-child(1), #hello .skill li:nth-child(2), #hello .skill li:nth-child(3), #hello .skill li:nth-child(4), #hello .skill li:nth-child(4), #hello .skill li:nth-child(5) {
+	margin-top: 0px;
+}
+.portfolio .item {
+	width: 100%;
+}
+#hello .skill li {
+	margin-bottom: 50px;
+}
+.portfolio .item {
+	width: 100%;
+}
+.static li {
+	width: 100%;
+}
+#testimonials .testi span {
+	font-size: 20px;
+}
+#testimonials .review {
+	width: 100%;
+}
+.chart {
+	float: none;
+	display: inline-block;
+}
+.portfolio .over.hover .overlay {
+	height: 100%;
+}
+.portfolio .description {
+	width: 100%;
+	text-align: center;
+}
+.static li {
+	width: 100%;
+}
+#contact .form-group {
+	width: 85%;
+}
+#contact textarea {
+	height: 10em;
+	width: 85.4%;
+}
+header .social_icons{
+	position:relative;
+	width:100%;
+}
+.navbar-header{
+
 }
 }
-@media (max-width: 360px){
-.hover-bg .hover-text {
-    padding: 22% 10%;
+@media(max-width:320px) {
+#home .text span {
+	letter-spacing: 8px;
+	line-height: 38px;
+	font-size: 19px;
 }
+#home .text h1 {
+	font-size: 50px;
+}
+#home {
+	height: 530px;
+	background: url(../images/home-bg.jpg) top center no-repeat;
+	min-height: initial;
+}
+#home .text {
+	margin-top: 50%;
+}
+header {
+	position: absolute;
+	top: 0px;
+}
+header .menu {
+	margin-top: 0px;
+}
+.main_icon .icon {
+	margin-top: 30px;
+}
+#hello .avatar {
+	width: 100%;
+}
+#hello .avatar img {
+	width: 100%;
+}
+#hello .per-info {
+	width: 100%;
+}
+#hello .skill li {
+	width: 100%;
+}
+.navbar-toggle {
+	width: 50px;
+}
+#hello .skill li:nth-child(1), #hello .skill li:nth-child(2), #hello .skill li:nth-child(3), #hello .skill li:nth-child(4), #hello .skill li:nth-child(4), #hello .skill li:nth-child(5) {
+	margin-top: 0px;
+}
+.portfolio .item {
+	width: 100%;
+}
+#hello .skill li {
+	margin-bottom: 50px;
+}
+.portfolio .item {
+	width: 100%;
+}
+.static li {
+	width: 100%;
+}
+#testimonials .testi span {
+	font-size: 20px;
+}
+#testimonials .review {
+	width: 100%;
+}
+.chart {
+	float: none;
+	display: inline-block;
+}
+.portfolio .over.hover .overlay {
+	height: 100%;
+}
+.portfolio .description {
+	width: 100%;
+	text-align: center;
+}
+.static li {
+	width: 100%;
+}
+#contact .form-group {
+	width: 85%;
+}
+#contact textarea {
+	height: 10em;
+	width: 85.4%;
+}
+}
+ @media(min-width:768px) and (max-width:991px) {
+.main_icon {
+	margin-top: 0px;
+}
+.main_icon {
+	margin-top: 10px !important;
+}
+.main_icon .icon {
+	margin-top: 0px;
+}
+.is-sticky header {
+	background: #212121;
+	position: relative !important;
+}
+#hello .per-info {
+	text-align: left;
+	width: 448px;
+	float: right;
+}
+#hello .avatar {
+	width: 261px;
+	float: left;
+}
+.chart {
+	width: 120px;
+	height: 120px;
+}
+.chart canvas {
+	width: 120px;
+	height: 120px;
+}
+#hello .skill li p {
+	margin-top: 0px;
+}
+.portfolio .over.hover .overlay {
+	height: 100%;
+}
+.portfolio .description {
+	width: 100%;
+}
+.portfolio .icon {
+	margin-top: 20px;
+}
+#testimonials .avatar {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+#testimonials .review {
+	text-align: center;
+	width: 100%;
+}
+#contact .form-group {
+	width: 27.7%;
+}
+#contact textarea {
+	height: 10em;
+	width: 93.4%;
+}
+header .navbar-default .navbar-nav > li > a{
+	padding:10px 20px;
+}
+}
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {
+.main_icon {
+	margin-top: 0px;
+}
+.main_icon {
+	margin-top: 10px !important;
+}
+.main_icon .icon {
+	margin-top: 0px;
+}
+
+
+}
+@media(max-width:1400px) {
+.main_icon {
+	margin-top: 25px !important;
+}
+}
+/* Large */
+@media(min-width:1200px) {
 }
