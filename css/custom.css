@@ -43,3 +43,14 @@ body {
   font-size: 1.4em;
   font-weight: 100;
 }
+
+/* ---- NAVIGATION ---- */
+header .navbar-default .navbar-nav > li > a {
+  font-weight: 100;
+}
+
+header .navbar-default .navbar-nav > li > a:hover,
+header .navbar-default .navbar-nav > li > .active {
+  color: yellow;
+  border-bottom: none;
+}
