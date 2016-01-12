@@ -1,1 +1,5 @@
-/* This file contains all customizations to the original template
+/* This file contains all customizations to the original template */
+
+#home {
+  background-color: gray;
+}
