@@ -54,3 +54,55 @@ header .navbar-default .navbar-nav > li > .active {
   color: yellow;
   border-bottom: none;
 }
+
+/* ---- MY STORY ---- */
+#my-story {
+  background: url(../images/hello-top-bg.png) top center repeat-x;
+  padding-top: 120px;
+}
+.my-story {
+  background-image:url(../images/hello-bg.jpg);
+    background-repeat:  repeat;
+  padding: 200px 0;
+  padding-top:0px;
+}
+.my-story .main_icon{
+  top:0px;
+}
+#my-story .angle::before, .angle::after {
+  padding: 500px 0;
+}
+#my-story {
+  color: #434343;
+  z-index: 9;
+}
+#my-story .info {
+  margin-top: 50px;
+}
+
+#my-story .avatar {
+  width: 440px;
+  float: left;
+}
+#my-story .avatar img {
+  border: 6px solid #4a4a4a;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#my-story .per-info {
+  text-align: left;
+  width: 675px;
+  float: right;
+}
+#my-story .per-info p {
+  color: #fff;
+}
+#my-story .skill {
+  margin-top: 80px;
+}
+#my-story .skill li {
+  position: relative;
+  width: 19.5%;
+  float: left;
+  display: inline-block;
+}
