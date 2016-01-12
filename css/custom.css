@@ -171,3 +171,15 @@ header .navbar-default .navbar-nav > li > .active {
 #skills p {
   font-size: 24px;
 }
+
+
+/* ---- PORTFOLIO ---- */
+#portfolio {
+  z-index: 11;
+}
+
+
+/* ---- CONTACT ---- */
+#contact {
+  z-index: 12;
+}
