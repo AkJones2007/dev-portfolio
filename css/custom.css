@@ -106,10 +106,6 @@ header .navbar-default .navbar-nav > li > .active {
       color: white;
       border-color: white;
     }
-    #likes h3 {
-      color: white;
-      font-weight: 900;
-    }
     #likes li {
       position: relative;
       width: 20%;
@@ -125,6 +121,9 @@ header .navbar-default .navbar-nav > li > .active {
     }
     #likes h3 {
       font-weight: 100;
+    }
+    #likes .title {
+      font-weight: 900;
     }
 
 
