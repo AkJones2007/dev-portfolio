@@ -333,9 +333,8 @@
 
   <!--======= CONTACT =========-->
   <div id="contact">
+    <h3 class="title">GET IN TOUCH</h3>
     <div class="container">
-
-      <h3>GET IN TOUCH</h3>
 
       <div class="col-md-5">
         <ul class="info wow bounceIn" data-wow-delay="500ms">
@@ -361,27 +360,43 @@
       <div class="col-md-7">
         <div id="contact_form" class=" wow bounceIn" data-wow-delay="500ms">
           <form id="contact-form" class="contact-form " accept-charset="utf-8" method="post" >
-            <div class="form-group">
-              <label><span>Name</span>
-                <input name="name" type="text" placeholder="Name"/>
-              </label>
-            </div>
-            <div class="form-group">
-              <label>
-                <input name="email" type="email" placeholder="Your email ( Requed )"/>
-              </label>
-            </div>
-            <div class="form-group">
-              <label>
-                <input name="text" type="text" placeholder="Subject"/>
-              </label>
-            </div>
-            <label> <span>Message</span>
-              <textarea name="message" placeholder="Your Message"></textarea>
-            </label>
+            <ul>
+
+              <li class="field required">
+                <label><span>Name*</span>
+                  <input name="name" type="text" placeholder="John Doe"/>
+                </label>
+              </li>
+
+              <li class="field">
+                <label><span>Company</span>
+                  <input name="company" type="text" placeholder="XYZ Industries"/>
+                </label>
+              </li>
+
+              <li class="field required">
+                <label><span>E-Mail Address*</span>
+                  <input name="email" type="email" placeholder="poop@poop.com"/>
+                </label>
+              </li>
+
+              <li class="field">
+                <label><span>Phone Number</span>
+                  <input name="phone" type="text" placeholder="(617) 555-5555"/>
+                </label>
+              </li>
+
+              <li class="field required">
+                <label><span>Your Message*</span>
+                  <textarea name="message" placeholder="Blah Blah Blah"></textarea>
+                </label>
+              </li>
+
+            </ul>
+
             <input name="submit" type="submit" value="SUBMIT YOUR MESSAGE" />
           </form>
-          <div class="clearfix"></div>
+
         </div>
       </div>
 

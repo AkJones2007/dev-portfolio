@@ -226,6 +226,10 @@ header .navbar-default .navbar-nav > li > .active {
 #contact {
   z-index: 12;
 }
+  #contact .title {
+    margin-bottom: 50px;
+  }
+
   #contact .info {
     width: 100%;
     text-align: left;
@@ -244,3 +248,10 @@ header .navbar-default .navbar-nav > li > .active {
       font-weight: 300;
       display: inline-block;
     }
+  #contact form .field {
+    width: 100%;
+  }
+  #contact form textarea {
+    margin: 5px 0 10px 0;
+    width: inherit;
+  }
