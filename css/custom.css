@@ -177,6 +177,24 @@ header .navbar-default .navbar-nav > li > .active {
 #portfolio {
   z-index: 11;
 }
+  #portfolio .overlay {
+    background-color: rgba(0,0,0,.5);
+  }
+  #portfolio .over.hover .overlay {
+    width: 100%;
+    height: 100%;
+  }
+    #portfolio .overlay .title {
+      color: white;
+      margin-top: 22%;
+    }
+    #portfolio .overlay .subtitle {
+      font-weight: 100;
+    }
+    #portfolio .overlay i {
+      font-size: 1.2em;
+      margin: 0 5px;
+    }
 
 
 /* ---- CONTACT ---- */
