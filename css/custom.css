@@ -203,6 +203,24 @@ header .navbar-default .navbar-nav > li > .active {
       margin: 0 5px;
     }
 
+/* ---- PORTFOLIO DETAIL ---- */
+.popup .details .title {
+  margin-top: 0;
+  font-size: 2em;
+}
+.popup .details .subtitle {
+  color: gray;
+  font-size: 1.4em;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.popup .details .technologies {
+  color: black;
+  font-size: 1em;
+}
+.popup .details .description {
+  margin: 20px 0;
+}
 
 /* ---- CONTACT ---- */
 #contact {
