@@ -3,7 +3,8 @@
 
 /* ---- GENERAL ---- */
 body {
-  background-color: black;
+  background-image: url("../images/backgrounds/footer_lodyas.png");
+  background-repeat: repeat-x;
 }
 
 
@@ -32,7 +33,11 @@ p {
 
 /* ---- HOME ---- */
 #home {
-  background-color: black;
+  background-image: url("../images/backgrounds/use_your_illusion.png");
+/*  background-image: url("../images/backgrounds/footer_lodyas.png");
+*/  background-repeat: repeat;
+  background-size: initial;
+  background-position: initial;
 }
 
 #home .big-logo {
