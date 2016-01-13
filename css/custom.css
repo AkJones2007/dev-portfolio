@@ -261,6 +261,7 @@ header .navbar-default .navbar-nav > li > .active {
   #contact form textarea {
     margin: 5px 0 10px 0;
     width: inherit;
+    padding-top: 5px;
   }
   #contact form .field .reason {
     text-align: left;
