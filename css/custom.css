@@ -225,6 +225,7 @@ header .navbar-default .navbar-nav > li > .active {
 /* ---- CONTACT ---- */
 #contact {
   z-index: 12;
+  font-family: 'Lato', sans-serif;
 }
   #contact .title {
     margin-bottom: 50px;
@@ -251,6 +252,11 @@ header .navbar-default .navbar-nav > li > .active {
   #contact form .field {
     width: 100%;
   }
+    #contact form .field span {
+      display: block;
+      text-align: left;
+      color: white;
+    }
   #contact form textarea {
     margin: 5px 0 10px 0;
     width: inherit;
