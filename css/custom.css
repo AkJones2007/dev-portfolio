@@ -3,7 +3,7 @@
 
 /* ---- GENERAL ---- */
 body {
-  background-color: black;
+  background: black;
 }
 
 
@@ -226,6 +226,7 @@ header .navbar-default .navbar-nav > li > .active {
 #contact {
   z-index: 12;
   font-family: 'Lato', sans-serif;
+  background: black;
 }
   #contact .title {
     margin-bottom: 50px;
@@ -261,3 +262,24 @@ header .navbar-default .navbar-nav > li > .active {
     margin: 5px 0 10px 0;
     width: inherit;
   }
+  #contact form .field .reason {
+    text-align: left;
+    margin-top: 10px;
+  }
+  #contact form .field .reason li {
+    width: 49%;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+  }
+    #contact form .field .reason li input[type="radio"] {
+      float: left;
+      width: auto;
+      height: auto;
+      margin-right: 20px;
+    }
+    #contact form .field .reason li label {
+      color: white;
+      width: 100%;
+      font-weight: 300;
+    }
