@@ -294,3 +294,7 @@ header .navbar-default .navbar-nav > li > .active {
     color: black;
     font-weight: normal;
   }
+  #contact form input[type="submit"] {
+    font-size: 1em;
+    font-weight: 300;
+  }
