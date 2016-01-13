@@ -177,6 +177,10 @@ header .navbar-default .navbar-nav > li > .active {
 #portfolio {
   z-index: 11;
 }
+  #portfolio .filter li a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
   #portfolio .overlay {
     background-color: rgba(0,0,0,.5);
   }
