@@ -362,31 +362,31 @@
           <form id="contact-form" class="contact-form " accept-charset="utf-8" method="post" >
             <ul>
 
-              <li class="field required">
+              <li>
                 <label><span>Name*</span>
-                  <input name="name" type="text" placeholder="John Doe"/>
+                  <input  class="field required" name="name" type="text" placeholder="John Doe"/>
                 </label>
               </li>
 
-              <li class="field">
+              <li>
                 <label><span>Company</span>
-                  <input name="company" type="text" placeholder="XYZ Industries"/>
+                  <input class="field required" name="company" type="text" placeholder="XYZ Industries"/>
                 </label>
               </li>
 
-              <li class="field required">
+              <li>
                 <label><span>E-Mail Address*</span>
-                  <input name="email" type="email" placeholder="poop@poop.com"/>
+                  <input class="field required" name="email" type="email" placeholder="poop@poop.com"/>
                 </label>
               </li>
 
-              <li class="field">
+              <li>
                 <label><span>Phone Number</span>
-                  <input name="phone" type="text" placeholder="(617) 555-5555"/>
+                  <input class="field required" name="phone" type="text" placeholder="(617) 555-5555"/>
                 </label>
               </li>
 
-              <li class="field">
+              <li>
                 <label>
                   <span>Reason for Contact?*</span>
                   <ul class="reason">
@@ -419,9 +419,9 @@
                 </label>
               </li>
 
-              <li class="field required">
+              <li>
                 <label><span>Your Message*</span>
-                  <textarea name="message" placeholder="Blah Blah Blah"></textarea>
+                  <textarea class="field required" name="message" placeholder="Blah Blah Blah"></textarea>
                 </label>
               </li>
 
@@ -458,7 +458,7 @@
 </div>
 
 <!--======= SCRIPTS =========-->
-<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.js"></script>
 <script src="js/wow.min.js"></script>
 <script src='js/jquery.magnific-popup.min.js'></script>
 <script src="js/bootstrap.min.js"></script>
@@ -473,6 +473,7 @@
 <script src="js/modernizr.js"></script>
 <script src="js/jquery.vegas.js"></script>
 <script src="js/main.js"></script>
+<script src="js/actions.js"></script>
 
 </body>
 </html>

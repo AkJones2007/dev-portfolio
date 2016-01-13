@@ -253,7 +253,7 @@ header .navbar-default .navbar-nav > li > .active {
   #contact form .field {
     width: 100%;
   }
-    #contact form .field span {
+    #contact form li span {
       display: block;
       text-align: left;
       color: white;
@@ -263,24 +263,34 @@ header .navbar-default .navbar-nav > li > .active {
     width: inherit;
     padding-top: 5px;
   }
-  #contact form .field .reason {
+  #contact form .reason {
     text-align: left;
     margin-top: 10px;
   }
-  #contact form .field .reason li {
+  #contact form .reason li {
     width: 49%;
     text-align: left;
     display: inline-block;
     margin: 0;
   }
-    #contact form .field .reason li input[type="radio"] {
+    #contact form .reason li input[type="radio"] {
       float: left;
       width: auto;
       height: auto;
       margin-right: 20px;
     }
-    #contact form .field .reason li label {
+    #contact form  .reason li label {
       color: white;
       width: 100%;
       font-weight: 300;
     }
+  #contact .field {
+    font-style: italic;
+    font-weight: 300;
+  }
+  #contact form .field.active,
+  #contact form .field.populated {
+    font-style: normal;
+    color: black;
+    font-weight: normal;
+  }
