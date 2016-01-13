@@ -53,31 +53,31 @@ p {
 #home .headlines h2 {
   font-size: 1.4em;
   font-weight: 100;
+  color: #D6FFBE;
 }
 
 /* ---- NAVIGATION ---- */
 header .navbar-default .navbar-nav > li > a {
-  font-weight: 100;
+  font-weight: 300;
 }
 
 header .navbar-default .navbar-nav > li > a:hover,
 header .navbar-default .navbar-nav > li > .active {
-  color: yellow;
+  color: #D6FFBE;
   border-bottom: none;
 }
 
-
 /* ---- MY STORY ---- */
 #my-story {
-  background-color: gray;
+  background-color: #505050;
   padding: 200px 0;
   padding-top: 0;
   z-index: 9;
 }
 
     /* ABOUT */
-    #my-story .about {
-      background-color: gray;
+    #my-story .title {
+      color: #8C8C8C;
     }
     #my-story .info {
       margin-top: 50px;
@@ -101,6 +101,10 @@ header .navbar-default .navbar-nav > li > .active {
     }
     #my-story h6 {
       font-size: 1em;
+    }
+    #my-story span {
+      color: #90A7D7;
+      font-style: italic;
     }
 
     /* LIKES */
@@ -134,14 +138,11 @@ header .navbar-default .navbar-nav > li > .active {
 
 /* ---- SKILLS ---- */
 #skills {
-  background-color: darkviolet;
+  background-color: #90A7D7;
   z-index: 10;
   padding: 200px 0;
   padding-top: 0;
   padding-left: 80px;
-}
-#skills .container {
-  background-color: darkviolet;
 }
 #skills .charts {
   margin-top: 80px;
@@ -182,9 +183,18 @@ header .navbar-default .navbar-nav > li > .active {
 #portfolio {
   z-index: 11;
 }
+  #portfolio .title {
+    color: #1D5F4B;
+  }
   #portfolio .filter li a {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+  }
+  #portfolio .filter li a:hover {
+    background-color: #1D5F4B;
+  }
+  #portfolio .filter .active {
+    background-color: #1D5F4B;
   }
   #portfolio .item img {
     border: 1px solid black;
