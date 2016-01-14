@@ -330,11 +330,31 @@
   </section>
 
   <!--======= CONTACT =========-->
-  <div id="contact">
+  <div id="contact" class="page-panel panel-brown diagonal-top-up">
+    <h3 class="title">GET IN TOUCH</h3>
     <div class="container">
-      <div class="main_icon wow bounce" data-wow-delay="100ms">
-        <div class="icon"> <i class="ion-android-location"></i> </div>
+
+      <div class="col-md-5">
+        <ul class="info wow bounceIn" data-wow-delay="500ms">
+
+          <li>
+            <span><i class="ion-location"></i></span>
+            <h3>Providence, Rhode Island</h3>
+          </li>
+
+          <li>
+            <span><i class="ion-ios-telephone"></i></span>
+            <h3>(207) 691-0181</h3>
+          </li>
+
+          <li>
+            <span><i class="ion-ios-email"></i></span>
+            <h3>AkJones2007@gmail.com</h3>
+          </li>
+
+        </ul>
       </div>
+<<<<<<< HEAD
       <h3>GET IN TOUCH</h3>
       <div id="contact_form" class=" wow bounceIn" data-wow-94D794delay="500ms">
         <form id="contact-form" class="contact-form " accept-charset="utf-8" method="post" >
@@ -359,7 +379,85 @@
           <input name="submit" type="submit" value="SUBMIT YOUR MESSAGE" />
         </form>
         <div class="clearfix"></div>
+=======
+
+      <div class="col-md-7">
+        <div id="contact_form" class=" wow bounceIn" data-wow-delay="500ms">
+          <form id="contact-form" class="contact-form " accept-charset="utf-8" method="post" >
+            <ul>
+
+              <li>
+                <label><span>Name*</span>
+                  <input  class="field required" name="name" type="text" placeholder="John Doe"/>
+                </label>
+              </li>
+
+              <li>
+                <label><span>Company</span>
+                  <input class="field required" name="company" type="text" placeholder="XYZ Industries"/>
+                </label>
+              </li>
+
+              <li>
+                <label><span>E-Mail Address*</span>
+                  <input class="field required" name="email" type="email" placeholder="poop@poop.com"/>
+                </label>
+              </li>
+
+              <li>
+                <label><span>Phone Number</span>
+                  <input class="field required" name="phone" type="text" placeholder="(617) 555-5555"/>
+                </label>
+              </li>
+
+              <li>
+                <label>
+                  <span>Reason for Contact?*</span>
+                  <ul class="reason">
+
+                    <li>
+                      <label>
+                        <input type="radio" name="reason" value="job">Full-Time/Part-Time Job Opportunity
+                      </label>
+                    </li>
+
+                    <li>
+                      <label>
+                        <input type="radio" name="reason" value="contract">Contract Opportunity/Request Quote
+                      </label>
+                    </li>
+
+                    <li>
+                      <label>
+                        <input type="radio" name="reason" value="info">I Want More Information
+                      </label>
+                    </li>
+
+                    <li>
+                      <label>
+                        <input type="radio" name="reason" value="hi">Just Wanted to Say Hi!
+                      </label>
+                    </li>
+
+                  </ul>
+                </label>
+              </li>
+
+              <li>
+                <label><span>Your Message*</span>
+                  <textarea class="field required" name="message" placeholder="Blah Blah Blah"></textarea>
+                </label>
+              </li>
+
+            </ul>
+
+            <input name="submit" type="submit" value="SUBMIT" />
+          </form>
+
+        </div>
+>>>>>>> contact
       </div>
+
     </div>
     <section id="social" class="page-panel panel-brown diagonal-top-up">
       <div class="container">
@@ -385,7 +483,7 @@
 </div>
 
 <!--======= SCRIPTS =========-->
-<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.js"></script>
 <script src="js/wow.min.js"></script>
 <script src='js/jquery.magnific-popup.min.js'></script>
 <script src="js/bootstrap.min.js"></script>
@@ -400,6 +498,7 @@
 <script src="js/modernizr.js"></script>
 <script src="js/jquery.vegas.js"></script>
 <script src="js/main.js"></script>
+<script src="js/actions.js"></script>
 
 </body>
 </html>

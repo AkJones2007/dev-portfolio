@@ -3,8 +3,12 @@
 
 /* ---- GENERAL ---- */
 body {
+<<<<<<< HEAD
   background-image: url("../images/backgrounds/footer_lodyas.png");
   background-repeat: repeat-x;
+=======
+  background: black;
+>>>>>>> contact
 }
 
 
@@ -240,4 +244,82 @@ header .navbar-default .navbar-nav > li > .active {
 /* ---- CONTACT ---- */
 #contact {
   z-index: 12;
+  font-family: 'Lato', sans-serif;
+  background: black;
 }
+  #contact .title {
+    margin-bottom: 50px;
+  }
+
+  #contact .info {
+    width: 100%;
+    text-align: left;
+  }
+  #contact li {
+    position: relative;
+  }
+    #contact .info span {
+      display: inline-block;
+      margin: 0;
+      width: 70px;
+      height: auto;
+      text-align: center;
+    }
+    #contact .info i {
+      font-size: 2.6em;
+    }
+    #contact .info h3 {
+      margin-top: 0;
+      font-weight: 300;
+      display: inline-block;
+      position: absolute;
+      top: 22px;
+    }
+  #contact form .field {
+    width: 100%;
+  }
+    #contact form li span {
+      display: block;
+      text-align: left;
+      color: white;
+    }
+  #contact form textarea {
+    margin: 5px 0 10px 0;
+    width: inherit;
+    padding-top: 5px;
+  }
+  #contact form .reason {
+    text-align: left;
+    margin-top: 10px;
+  }
+  #contact form .reason li {
+    width: 49%;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+  }
+    #contact form .reason li input[type="radio"] {
+      float: left;
+      width: auto;
+      height: auto;
+      margin-right: 20px;
+    }
+    #contact form  .reason li label {
+      color: white;
+      width: 100%;
+      font-weight: 300;
+    }
+  #contact .field {
+    font-style: italic;
+    font-weight: 300;
+  }
+  #contact form .field.active,
+  #contact form .field.populated {
+    font-style: normal;
+    color: black;
+    font-weight: normal;
+  }
+  #contact form input[type="submit"] {
+    font-size: 1em;
+    font-weight: 300;
+  }
