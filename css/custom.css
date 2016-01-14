@@ -25,7 +25,7 @@ p {
 }
 
 .script {
-  font-family: 'Playball', cursive;
+  font-family: 'Euphoria Script', cursive;
 }
 
 .monospace {
@@ -54,7 +54,7 @@ p {
 
 #home .headlines h2 {
   font-size: 1.4em;
-  font-weight: 100;
+  font-weight: bold;
   color: #90A7D7;
 }
 
