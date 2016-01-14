@@ -70,7 +70,7 @@ header .navbar-default .my-story .active {
 }
 header .navbar-default .skills a:hover,
 header .navbar-default .skills .active {
-  color: #E5A7DA;
+  color: #BD9DDB;
   border-bottom: none;
 }
 header .navbar-default .portfolio a:hover,
@@ -161,6 +161,9 @@ header .navbar-default .contact .active {
   padding: 200px 0;
   padding-top: 0;
   padding-left: 80px;
+}
+#skills .title {
+  color: #BD9DDB;
 }
 #skills .charts {
   margin-top: 80px;
