@@ -3,12 +3,8 @@
 
 /* ---- GENERAL ---- */
 body {
-<<<<<<< HEAD
   background-image: url("../images/backgrounds/footer_lodyas.png");
   background-repeat: repeat-x;
-=======
-  background: black;
->>>>>>> contact
 }
 
 
@@ -246,6 +242,9 @@ header .navbar-default .navbar-nav > li > .active {
   z-index: 12;
   font-family: 'Lato', sans-serif;
   background: black;
+  padding: 200px 0;
+  padding-top: 0;
+  margin: 0;
 }
   #contact .title {
     margin-bottom: 50px;
