@@ -1,41 +1,38 @@
 <?php
-                     
+
 require('phpmailer/class.phpmailer.php');
 require('phpmailer/class.smtp.php');
 
 
 /* config start */
 
-$emailAddress = 'you@gmail.com';
-$fromName="example company";
+$emailAddress = 'AkJones2007@gmail.com';
+$fromName = 'Alex Jones';
 $smtp=false;
 
 /* NOTE: IF YOU RECIEVED THIS MESSAGE "Error Occured:Could not instantiate mail function." YOU SHOULD SET SMTP CONFIG
  * AND SET $SMTP VALUE TO TRUE */
 
 /* config end */
+$name = $_POST('name');
+$company = $_POST('company');
+$phone = $_POST('phone');
+$email = $_POST['email'];
+$message = $_POST('message');
+$reason = $_POST('reason');
 
+$subject = ''.$name.' from '.$company.': '.$reason.'';
 
+$emailBody =
+'Name: '.$name.'<br>
+ Company: '.$company.'<br>
+ Phone Number: '.$phone.'<br><br>
+ Message: '.nl2br($message).'';
 
-$email=$_POST['email'];
-                 
-$msg=
-'Name:	'.$_POST['name'].'<br />
-Email:	'.$_POST['email'].'<br />
-IP:	'.$_SERVER['REMOTE_ADDR'].'<br /><br />
-
-Message:<br /><br />
-
-'.nl2br($_POST['message']).'
-
-';       
-                        
-                        
 $mail = new PHPMailer(); // create a object to that class.
 
-
 if($smtp){
-    
+
 $mail->IsSMTP();
 $mail->Host = "smtp.gmail.com";
 $mail->SMTPSecure = "ssl";
@@ -43,7 +40,7 @@ $mail->Port       = 465;
 
 
 // optional
-// used only when SMTP requires authentication  
+// used only when SMTP requires authentication
 
 $mail->SMTPAuth = true;
 $mail->Username = 'GMAIL USERNAME';
@@ -55,25 +52,25 @@ $mail->Password = 'YOUR GMAIL PASSWORD';
 
 $mail->Timeout  = 360;
 
-$mail->Subject =  "A new mail from ".$_POST['name']." | contact form feedback";
+$mail->Subject = $subject;
 $from = $fromName;
 $mail->From = $email;
-$mail->FromName = $email;
+$mail->FromName = $name;
 $mail->AddReplyTo($emailAddress, $from);
 $to = $emailAddress;
 $mail->AddAddress($to, '');
 
 
-$mail->MsgHTML($msg);
+$mail->MsgHTML($emailBody);
 
-$mail->Body = $msg;
+$mail->Body = $emailBody;
 
 
 
 if($mail->Send()) {
      echo "<div class='alert alert-success' >Your Message Sent!</div>";
-   
-  
+
+
 } else {
   echo "<div class='alert alert-error' >Error Occured:".$mail->ErrorInfo."</div>";
 }
