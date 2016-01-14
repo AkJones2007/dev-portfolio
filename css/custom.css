@@ -304,3 +304,22 @@ header .navbar-default .navbar-nav > li > .active {
     font-size: 1em;
     font-weight: 300;
   }
+
+
+/* ---- SOCIAL ---- */
+#social {
+  z-index: 13;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ---- FOOTER ---- */
+#footer {
+  height: 250px;
+}
+  #footer .copyright {
+    margin-top: 180px;
+    font-weight: 300;
+    font-size: 1em;
+  }
