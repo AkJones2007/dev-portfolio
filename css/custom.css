@@ -55,7 +55,7 @@ p {
 #home .headlines h2 {
   font-size: 1.4em;
   font-weight: 100;
-  color: #D6FFBE;
+  color: #90A7D7;
 }
 
 /* ---- NAVIGATION ---- */
@@ -63,15 +63,16 @@ header .navbar-default .navbar-nav > li > a {
   font-weight: 300;
 }
 
-header .navbar-default .navbar-nav > li > a:hover,
-header .navbar-default .navbar-nav > li > .active {
-  color: #D6FFBE;
-  border-bottom: none;
+header .navbar-default .my-story a:hover {
+  color: #8C8C8C;
+}
+header .navbar-default .skills a:hover {
+  color: #E5A7DA;
 }
 
 /* ---- MY STORY ---- */
 #my-story {
-  background-color: #505050;
+  background-color: #3C3C3C;
   padding: 200px 0;
   padding-top: 0;
   z-index: 9;
@@ -140,7 +141,7 @@ header .navbar-default .navbar-nav > li > .active {
 
 /* ---- SKILLS ---- */
 #skills {
-  background-color: #90A7D7;
+  background-color: #5F4F6E;
   z-index: 10;
   padding: 200px 0;
   padding-top: 0;
@@ -243,7 +244,7 @@ header .navbar-default .navbar-nav > li > .active {
 #contact {
   z-index: 12;
   font-family: 'Lato', sans-serif;
-  background: black;
+  background: #1D5F4B;
   padding: 200px 0;
   padding-top: 0;
   margin: 0;
@@ -347,6 +348,7 @@ header .navbar-default .navbar-nav > li > .active {
 /* ---- FOOTER ---- */
 #footer {
   height: 250px;
+  background: #1D5F4B;
 }
   #footer .copyright {
     margin-top: 180px;
