@@ -243,19 +243,28 @@ header .navbar-default .contact .active {
 .popup .details .title {
   margin-top: 0;
   font-size: 2em;
+  color: black;
 }
 .popup .details .subtitle {
-  color: gray;
+  color: #838383;
   font-size: 1.4em;
-  font-weight: 300;
+  font-weight: 100;
   margin-top: 10px;
 }
 .popup .details .technologies {
-  color: black;
+  color: #1D5F4B;
   font-size: 1em;
 }
 .popup .details .description {
   margin: 20px 0;
+}
+
+.mfp-close-btn-in .mfp-close, .popup .btn {
+  background: #1D5F4B;
+  opacity: 1;
+}
+.mfp-close-btn-in .mfp-close:hover, .popup .btn:hover {
+  background: #2D9475;
 }
 
 /* ---- CONTACT ---- */
