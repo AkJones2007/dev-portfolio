@@ -274,7 +274,6 @@ header .navbar-default .navbar-nav > li > a {
 	color: #fff;
 }
 header nav .active {
-	border-bottom: 3px solid #fff !important;
 	color: #fff;
 }
 header .container-fluid {

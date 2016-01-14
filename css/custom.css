@@ -66,18 +66,22 @@ header .navbar-default .navbar-nav > li > a {
 header .navbar-default .my-story a:hover,
 header .navbar-default .my-story .active {
   color: #8C8C8C;
+  border-bottom: none;
 }
 header .navbar-default .skills a:hover,
 header .navbar-default .skills .active {
   color: #E5A7DA;
+  border-bottom: none;
 }
 header .navbar-default .portfolio a:hover,
 header .navbar-default .portfolio .active {
   color: #90A7D7;
+  border-bottom: none;
 }
 header .navbar-default .contact a:hover,
 header .navbar-default .contact .active {
   color: #D6FFBE;
+  border-bottom: none;
 }
 
 
