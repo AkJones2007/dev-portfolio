@@ -332,7 +332,17 @@ header .navbar-default .navbar-nav > li > .active {
   z-index: 13;
   margin: 0;
 }
-
+  #social i {
+    font-size: 1.6em;
+  }
+  #social .linkedin {
+    margin-left: 20%;
+  }
+  #social .github:hover {
+    color: #fff;
+    background-color: #404040;
+    border-color: #404040;
+  }
 
 /* ---- FOOTER ---- */
 #footer {
