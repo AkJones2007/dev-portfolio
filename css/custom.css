@@ -80,7 +80,7 @@ header .navbar-default .portfolio .active {
 }
 header .navbar-default .contact a:hover,
 header .navbar-default .contact .active {
-  color: #D6FFBE;
+  color: #3CC49B;
   border-bottom: none;
 }
 
@@ -266,6 +266,7 @@ header .navbar-default .contact .active {
 }
   #contact .title {
     margin-bottom: 50px;
+    color: #3CC49B;
   }
 
   #contact .info {
@@ -284,6 +285,7 @@ header .navbar-default .contact .active {
     }
     #contact .info i {
       font-size: 2.6em;
+      color: #3CC49B;
     }
     #contact .info h3 {
       margin-top: 0;
@@ -326,7 +328,7 @@ header .navbar-default .contact .active {
       width: 100%;
       font-weight: 300;
     }
-  #contact .field {
+  #contact form .field {
     font-style: italic;
     font-weight: 300;
   }
@@ -341,7 +343,6 @@ header .navbar-default .contact .active {
     font-weight: 300;
   }
 
-
 /* ---- SOCIAL ---- */
 #social {
   padding: 0;
@@ -350,6 +351,10 @@ header .navbar-default .contact .active {
 }
   #social i {
     font-size: 1.6em;
+    color: #1D5F4B;
+  }
+  #social a:hover i {
+    color: white;
   }
   #social .linkedin {
     margin-left: 20%;
