@@ -63,12 +63,23 @@ header .navbar-default .navbar-nav > li > a {
   font-weight: 300;
 }
 
-header .navbar-default .my-story a:hover {
+header .navbar-default .my-story a:hover,
+header .navbar-default .my-story .active {
   color: #8C8C8C;
 }
-header .navbar-default .skills a:hover {
+header .navbar-default .skills a:hover,
+header .navbar-default .skills .active {
   color: #E5A7DA;
 }
+header .navbar-default .portfolio a:hover,
+header .navbar-default .portfolio .active {
+  color: #90A7D7;
+}
+header .navbar-default .contact a:hover,
+header .navbar-default .contact .active {
+  color: #D6FFBE;
+}
+
 
 /* ---- MY STORY ---- */
 #my-story {
