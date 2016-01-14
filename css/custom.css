@@ -3,8 +3,10 @@
 
 /* ---- GENERAL ---- */
 body {
-  background-image: url("../images/backgrounds/footer_lodyas.png");
-  background-repeat: repeat-x;
+  background: black;
+}
+#wrap {
+  background: black;
 }
 
 
