@@ -94,6 +94,9 @@ header .navbar-default .contact .active {
 }
 
     /* ABOUT */
+    #my-story a {
+      color: #8C8C8C;
+    }
     #my-story .title {
       color: #8C8C8C;
     }
