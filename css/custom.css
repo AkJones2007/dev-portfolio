@@ -261,6 +261,9 @@ header .navbar-default .contact .active {
 .popup .details .description {
   margin: 20px 0;
 }
+.popup strong {
+  font-weight: normal
+}
 
 .mfp-close-btn-in .mfp-close, .popup .btn {
   background: #1D5F4B;
