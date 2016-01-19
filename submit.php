@@ -68,7 +68,8 @@ $mail->Body = $emailBody;
 
 
 if($mail->Send()) {
-  echo "<div class='alert alert-success'>
+  echo "<link href='css/custom.css' rel='stylesheet' type='text/css'>
+  <div class='alert alert-success'>
     <h2>Thanks for getting in touch!</h2>
     <script>
       setTimeout(function() {
@@ -77,7 +78,8 @@ if($mail->Send()) {
     </script>
   </div>";
 } else {
-  echo "<div class='alert alert-error'>
+  echo "<link href='css/custom.css' rel='stylesheet' type='text/css'>
+  <div class='alert alert-error'>
     <h2>Oops, it appears something went wrong! Please try again in a few minutes.</h2>
     <script>
       setTimeout(function() {
