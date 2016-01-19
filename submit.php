@@ -68,8 +68,7 @@ $mail->Body = $emailBody;
 
 
 if($mail->Send()) {
-  echo "<link href='css/custom.css' rel='stylesheet' type='text/css'>
-  <div class='alert alert-success'>
+  echo "<div class='alert alert-success' style='background:#1D5F4B; text-align: center;'>
     <h2>Thanks for getting in touch!</h2>
     <script>
       setTimeout(function() {
