@@ -72,12 +72,19 @@ if($mail->Send()) {
     <h2>Thanks for getting in touch!</h2>
     <script>
       setTimeout(function() {
-        window.location.assign('http://www.alexjonesdesign.com');
+        window.location.assign('http://www.alexjonesdesign.com/#contact');
       }, 1000);
     </script>
   </div>";
 } else {
-  echo "<div class='alert alert-error' >Error Occured:".$mail->ErrorInfo."</div>";
+  echo "<div class='alert alert-error'>
+    <h2>Oops, it appears something went wrong! Please try again in a few minutes.</h2>
+    <script>
+      setTimeout(function() {
+        window.location.assign('http://www.alexjonesdesign.com/#contact');
+      }, 1000);
+    </script>
+  </div>";
 }
 
 
