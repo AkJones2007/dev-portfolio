@@ -393,3 +393,14 @@ header .navbar-default .contact .active {
     font-size: 1em;
     font-weight: 300;
   }
+
+/* ---- ALERT ---- */
+.alert {
+  background: #1D5F4B;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+  .alert h2 {
+    font-weight: 300;
+  }
