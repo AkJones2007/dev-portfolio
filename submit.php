@@ -14,12 +14,12 @@ $smtp=false;
  * AND SET $SMTP VALUE TO TRUE */
 
 /* config end */
-$name = $_POST('name');
-$company = $_POST('company');
-$phone = $_POST('phone');
+$name = $_POST['name'];
+$company = $_POST['company'];
+$phone = $_POST['phone'];
 $email = $_POST['email'];
-$message = $_POST('message');
-$reason = $_POST('reason');
+$message = $_POST['message'];
+$reason = $_POST['reason'];
 
 $subject = ''.$name.' from '.$company.': '.$reason.'';
 
