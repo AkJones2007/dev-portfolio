@@ -24,10 +24,10 @@ $reason = $_POST['reason'];
 $subject = ''.$name.' from '.$company.': '.$reason.'';
 
 $emailBody =
-'Name: '.$name.'<br>
- Company: '.$company.'<br>
- Phone Number: '.$phone.'<br><br>
- Message: '.nl2br($message).'';
+'<strong>Name:</strong> '.$name.'<br>
+ <strong>Company:</strong> '.$company.'<br>
+ <strong>Phone Number:</strong> '.$phone.'<br><br>
+ <strong>Message:</strong> '.nl2br($message).'';
 
 $mail = new PHPMailer(); // create a object to that class.
 
