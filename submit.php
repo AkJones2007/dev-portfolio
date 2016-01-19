@@ -68,9 +68,14 @@ $mail->Body = $emailBody;
 
 
 if($mail->Send()) {
-     echo "<div class='alert alert-success' >Your Message Sent!</div>";
-
-
+  echo "<div class='alert alert-success'>
+    <h2>Thanks for getting in touch!</h2>
+    <script>
+      setTimeout(function() {
+        window.location.assign('http://www.alexjonesdesign.com');
+      }, 1000);
+    </script>
+  </div>";
 } else {
   echo "<div class='alert alert-error' >Error Occured:".$mail->ErrorInfo."</div>";
 }
