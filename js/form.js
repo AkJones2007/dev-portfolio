@@ -18,7 +18,7 @@ var form = {
   },
 
   getData: function(formID) {
-    var fields = $(form + ' .field');
+    var fields = $(formID + ' .field');
     var data = {};
 
     fields.each(function() {
