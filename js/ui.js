@@ -23,6 +23,28 @@ var ui = {
       });
     }
 
+  },
+
+  formValidation: {
+
+    valid: function(fieldID) {
+      var errorMessage = $(fieldID + ' .error-message');
+      var field = $(fieldID + ' .field');
+
+      field.removeClass('invalid');
+
+      errorMessage.addClass('hidden');
+    },
+    invalid: function(fieldID, message) {
+      var errorMessage = $(fieldID + ' .error-message');
+      var field = $(fieldID + ' .field');
+
+      field.addClass('invalid');
+
+      errorMessage.removeClass('hidden');
+      errorMessage.html(message);
+    }
+
   }
 
 }

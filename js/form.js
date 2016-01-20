@@ -39,6 +39,37 @@ var form = {
     setTimeout(function() {
       ui.modal.hide();
     }, 2000);
+  },
+
+  validate: {
+
+    field: function(field) {
+      var name = field.attr('name');
+      var fieldID = '#contact-' + name;
+      var title = $(fieldID + ' .title').html();
+      var value = $(field.val());
+
+      if(field.hasClass('required') && field.val() === '') {
+        var message = '*' + title.slice(0, title.length - 1) + ' is a required field';
+        ui.formValidation.invalid(fieldID, message);
+        return false;
+      } else {
+        ui.formValidation.valid(fieldID);
+        return true;
+      }
+    },
+
+    form: function(formID) {
+      var fields = $(formID + ' .field');
+      var valid = true;
+      fields.each(function() {
+        if(!form.validate.field($(this))) {
+          valid = false;
+        }
+      });
+      return valid;
+    }
+
   }
 
 }

@@ -370,6 +370,9 @@ header .navbar-default .contact .active {
     border: 2px solid #FF5756 !important;
     background-color: #FFAAAB;
   }
+  #contact form .title {
+    margin: 0;
+  }
 
 /* ---- SOCIAL ---- */
 #social {
