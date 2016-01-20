@@ -1,9 +1,9 @@
 var contact = {
 
   submit: function() {
-    data = form.getData('#contact-form');
+    var data = form.getData('#contact-form');
 
-    form.submit('submit.php', data, function(error, data) {
+    form.submit(data, 'submit.php', function(error, data) {
       if(error) {
         console.error(error);
         form.alert(contact.fail);
