@@ -127,6 +127,9 @@ header .navbar-default .contact .active {
       color: #90A7D7;
       font-style: italic;
     }
+    #my-story .avatar img {
+      width: 242px;
+    }
 
     /* LIKES */
     #likes {
@@ -155,6 +158,7 @@ header .navbar-default .contact .active {
     #likes .title {
       font-weight: 900;
     }
+
 
 
 /* ---- SKILLS ---- */
