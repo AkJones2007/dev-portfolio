@@ -23,7 +23,19 @@ $(function() {
 
   $('#contact-form').on('submit', function(event) {
     event.preventDefault();
-    contact.submit();
+    form.submit('#contact-form', 'submit.php', function(error, success) {
+      if(error) {
+        form.alert({
+          title: 'Oops! Something went wrong',
+          message: 'Please try again in a few minutes...'
+        });
+      } else {
+        form.alert({
+          title: 'Thanks for reaching out!',
+          message: 'I will be in touch soon.'
+        })
+      }
+    });
   });
 
 });

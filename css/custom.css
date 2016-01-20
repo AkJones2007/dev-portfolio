@@ -394,13 +394,31 @@ header .navbar-default .contact .active {
     font-weight: 300;
   }
 
-/* ---- ALERT ---- */
-.alert {
-  background: #1D5F4B;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
+/* ---- MODAL ---- */
+#modal {
+  background: rgba(0,0,0,.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  -webkit-animation-duration: .5s;
 }
-  .alert h2 {
-    font-weight: 300;
+  #modal .content {
+    background: white;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin: 20% auto;
   }
+    #modal .content .title {
+      font-weight: 300;
+      color: #1D5F4B;
+    }
+    #modal .content .message {
+      color: black;
+      font-weight: normal;
+    }
+
