@@ -1,19 +1,28 @@
 var contact = {
 
   submit: function() {
-    var form = $('#contact form .field');
-    var info = {};
+    data = form.getData('#contact-form');
 
-    form.each(function() {
-      var name = $(this).attr('name');
-      var value = $(this).val();
-
-      if(value) {
-        info[name] = value;
+    form.submit('submit.php', data, function(error, data) {
+      if(error) {
+        console.error(error);
+        form.alert(contact.fail);
+      } else {
+        form.alert(contact.success);
       }
     });
+  },
 
-    return info;
+  success: {
+    formID: '#contact-form',
+    title: 'Thanks for reaching out!',
+    content: 'I will be in touch soon.'
+  },
+
+  fail: {
+    formID: '#contact-form',
+    title: 'Oops! It appears something went wrong.',
+    contentL 'Try again in a few minutes...'
   }
 
 };
