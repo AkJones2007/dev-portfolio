@@ -68,24 +68,9 @@ $mail->Body = $emailBody;
 
 
 if($mail->Send()) {
-  echo "<div class='alert alert-success' style='background:#1D5F4B; text-align: center; width: 100%; height: 100%; position: absolute; top: 0; left: 0;'>
-    <h2 style='color: white; font-family: 'Lato', sans-serif; font-weight: 300;>Thanks for getting in touch!</h2>
-    <script>
-      setTimeout(function() {
-        window.location.assign('http://www.alexjonesdesign.com/#contact');
-      }, 1000);
-    </script>
-  </div>";
+  echo "success";
 } else {
-  echo "<link href='css/custom.css' rel='stylesheet' type='text/css'>
-  <div class='alert alert-error'>
-    <h2>Oops, it appears something went wrong! Please try again in a few minutes.</h2>
-    <script>
-      setTimeout(function() {
-        window.location.assign('http://www.alexjonesdesign.com/#contact');
-      }, 1000);
-    </script>
-  </div>";
+  echo "error";
 }
 
 
