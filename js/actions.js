@@ -23,7 +23,7 @@ $(function() {
 
   $('#contact-form').on('submit', function(event) {
     event.preventDefault();
-    contact.submit('#contact-form');
+    contact.submit();
   });
 
 });
