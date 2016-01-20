@@ -403,6 +403,8 @@ header .navbar-default .contact .active {
   top: 0;
   left: 0;
   z-index: 1000;
+
+  -webkit-animation-duration: .5s;
 }
   #modal .content {
     background: white;
