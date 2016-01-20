@@ -17,6 +17,10 @@ var ui = {
     hide: function() {
       $('#modal').removeClass('fadeIn');
       $('#modal').addClass('fadeOut');
+
+      $('#modal').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+        $('#modal').addClass('hidden');
+      });
     }
 
   }
