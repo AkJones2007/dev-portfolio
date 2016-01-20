@@ -360,6 +360,16 @@ header .navbar-default .contact .active {
     font-size: 1em;
     font-weight: 300;
   }
+  #contact form span.error-message {
+    color: #FF5756;
+    font-style: italic;
+    font-size: 1em;
+    margin-top: -8px;
+  }
+  #contact form .field.invalid {
+    border: 2px solid #FF5756 !important;
+    background-color: #FFAAAB;
+  }
 
 /* ---- SOCIAL ---- */
 #social {
