@@ -1,5 +1,22 @@
 var form = {
 
+  submit: function(formID, url, callback) {
+    var formData = this.getData(formID);
+
+    $.ajax({
+      type: 'POST',
+      url: url,
+      data: format.phpData(formData),
+      success: function(status) {
+        if(status === 'success') {
+          callback(null, status);
+        } else {
+          callback(status);
+        }
+      }
+    });
+  },
+
   getData: function(formID) {
     var fields = $(form + ' .field');
     var data = {};
@@ -14,26 +31,14 @@ var form = {
     return data;
   },
 
-  submit: function(data, url, callback) {
-    $.ajax({
-      type: 'POST',
-      url: url,
-      success: callback(null, data),
-      fail: callback(data)
-    });
-  },
-
-  alert: function(options) {
-    var form = $(options.formID);
-    var title = "<h2 class='title'>" + options.title + "</h2>";
-    var content = "<p class='content'>" + options.content + "</p>";
-    var newHTML = "<div class='alert'>" + title + content "</div>";
-
-    form.html(newHTML);
+  alert: function(content) {
+    ui.modal.setTitle(content.title);
+    ui.modal.setMessage(content.message);
+    ui.modal.show();
 
     setTimeout(function() {
-      $(options.formID).html(form);
-    }, 1000)
+      ui.modal.hide();
+    }, 1000);
   }
 
 }
