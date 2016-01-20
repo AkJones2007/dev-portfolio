@@ -6,7 +6,7 @@ require('phpmailer/class.smtp.php');
 
 /* config start */
 
-$emailAddress = 'alex@alexjonesdesign';
+$emailAddress = 'alex@alexjonesdesign.com';
 $fromName = 'Alex Jones';
 $smtp=false;
 
