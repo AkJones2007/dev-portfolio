@@ -38,7 +38,7 @@ var form = {
 
     setTimeout(function() {
       ui.modal.hide();
-    }, 1000);
+    }, 2000);
   }
 
 }
