@@ -6,7 +6,7 @@ require('phpmailer/class.smtp.php');
 
 /* config start */
 
-$emailAddress = 'AkJones2007@gmail.com';
+$emailAddress = 'alex@alexjonesdesign';
 $fromName = 'Alex Jones';
 $smtp=false;
 
@@ -72,10 +72,5 @@ if($mail->Send()) {
 } else {
   echo "error";
 }
-
-
-
-
-
 
 ?>

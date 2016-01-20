@@ -3,6 +3,7 @@ $(function() {
   $('.field').on('focus', function(event) {
     event.preventDefault();
     var placeholder = $(this).attr('placeholder');
+    var name = $(this).attr('name');
 
     $(this).addClass('active');
     $(this).attr('placeholder', '');
@@ -18,11 +19,13 @@ $(function() {
       if($(this).val() !== '') {
         $(this).addClass('populated');
       }
+
     });
   });
 
   $('#contact-form').on('submit', function(event) {
     event.preventDefault();
+
     form.submit('#contact-form', 'submit.php', function(error, success) {
       if(error) {
         form.alert({
@@ -36,6 +39,7 @@ $(function() {
         })
       }
     });
+
   });
 
 });

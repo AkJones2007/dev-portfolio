@@ -495,7 +495,7 @@
 
           <li>
             <span><i class="ion-ios-email"></i></span>
-            <h3>AkJones2007@gmail.com</h3>
+            <h3>alex@alexjonesdesign.com</h3>
           </li>
 
         </ul>
@@ -506,33 +506,37 @@
           <form id="contact-form" class="contact-form" accept-charset="utf-8" method="POST" action="submit.php">
             <ul>
 
-              <li>
-                <label><span>Name*</span>
-                  <input  class="field required" name="name" type="text" placeholder="Walter White"/>
+              <li id="contact-name">
+                <label><span class="title">Name</span>
+                  <input class="field required" name="name" type="text" placeholder="Walter White"/>
+                  <span class="error-message hidden"></span>
                 </label>
               </li>
 
-              <li>
-                <label><span>Company</span>
+              <li id="contact-company">
+                <label><span class="title">Company</span>
                   <input class="field" name="company" type="text" placeholder="XYZ Industries"/>
+                  <span class="error-message hidden"></span>
                 </label>
               </li>
 
-              <li>
-                <label><span>E-Mail Address*</span>
+              <li id="contact-email">
+                <label><span class="title">E-Mail Address</span>
                   <input class="field required" name="email" type="email" placeholder="person@thing.com"/>
+                  <span class="error-message hidden"></span>
                 </label>
               </li>
 
-              <li>
-                <label><span>Phone Number</span>
+              <li id="contact-phone">
+                <label><span class="title">Phone Number</span>
                   <input class="field" name="phone" type="text" placeholder="(617) 555-5555"/>
+                  <span class="error-message hidden"></span>
                 </label>
               </li>
 
-              <li>
+              <li id="contact-reason">
                 <label>
-                  <span>Reason for Contact?*</span>
+                  <span class="title">Reason for Contact?</span>
                   <ul class="reason">
 
                     <li>
@@ -560,12 +564,14 @@
                     </li>
 
                   </ul>
+                  <span class="error-message hidden"></span>
                 </label>
               </li>
 
-              <li>
-                <label><span>Your Message*</span>
-                  <textarea class="field required" name="message" placeholder="Hey Alex! I think you're awesome. My company has a job opportunity you may be interested in. We look forward to hearing from you!"></textarea>
+              <li id="contact-message">
+                <label><span class="title">Your Message</span>
+                  <textarea class="field required" name="message" placeholder="Hey Alex! My company has a job opportunity you may be interested in. We look forward to hearing from you!"></textarea>
+                  <span class="error-message hidden"></span>
                 </label>
               </li>
 
@@ -639,10 +645,10 @@
 <script src="js/modernizr.js"></script>
 <script src="js/jquery.vegas.js"></script>
 <script src="js/main.js"></script>
-<script src="js/actions.js"></script>
 <script src="js/ui.js"></script>
 <script src="js/format.js"></script>
 <script src="js/form.js"></script>
+<script src="js/actions.js"></script>
 
 </body>
 </html>
